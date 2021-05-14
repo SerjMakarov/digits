@@ -1,0 +1,158 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.header {
+    padding: 20px 0;
+}
+
+.contact {
+    display: flex;
+}
+
+.logo {
+    display: block;
+}
+
+.nav__item {
+    padding-right: 35px;
+}
+
+.nav__item_link-color {
+    text-decoration: none;
+    color: #1E266D;
+}
+
+.btn-circle--hover:hover {
+    text-decoration: none;
+    color: #DFE0EB;
+}
+
+.btn-circle {
+    display: inline-block;
+    background: #3751FF;
+    padding: 10px 15px;
+    border-radius: 50px;
+    color: #fff;
+    text-align: center;
+}
+
+.btn-circle--white {
+    display: inline-block;
+    background: #fff;
+    padding: 10px 15px;
+    border-radius: 50px;
+    color: #455880;
+    text-align: center;
+}
+
+.slogan {
+    /* position: relative; */
+    background: #DFE0EB;
+    padding-top: 144px;
+}
+
+.slogan__maintext {
+    font-weight: 500;
+    font-size: 56px;
+    line-height: 105%;
+    text-align: center;
+    color: #1E266D;
+}
+
+.slogan__text {
+    margin: 28px 0;
+    font-size: 18px;
+    line-height: 150%;
+    text-align: center;
+    color: #455880;
+}
+
+.slogan__btn-circle {
+    display: flex;
+    justify-content: space-around;
+}
+
+.slogan__img {
+    margin-bottom: -177px;
+}
+
+.brands {
+    padding-top: 150px;
+}
+
+.brand__title {
+    margin: 54px 0 46px 0;
+    font-size: 16px;
+    line-height: 27px;
+    text-align: center;
+    color: rgba(69, 88, 128, 0.5);
+}
+
+.brand__logo {
+    display: flex;
+    justify-content: space-between;
+}
+
+.description-service {
+    padding-bottom: 100px;
+}
+
+.description-service__title {
+    margin: 194px 0 113px 0;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 60px;
+    text-align: center;
+    color: #1E266D;
+}
+
+.description-service__card {
+    display: flex;
+    border-bottom: 1px solid rgba(69, 88, 128, 0.2);
+    margin-bottom: 60px;
+    max-width: 360px;
+}
+
+.description-service__img {
+    margin-top: -161px;
+}
+
+.description-service__logo {
+    margin-right: 43px;
+}
+
+.description-service__subtitle {
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 125%;
+    color: #1E266D;
+}
+
+.description-service__desc {
+    padding: 20px 0;
+    font-size: 18px;
+    line-height: 27px;
+    color: #455880;
+}
+
+.description-service2 {
+    padding-top: 140px;
+    background: #FFF9EA;
+}
+
+.description-service2__title {
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 60px;
+    text-align: center;
+    color: #1E266D;
+}
+
+.description-service2__desc {
+    padding: 40px 0;
+    font-size: 21px;
+    line-height: 150%;
+    text-align: center;
+    color: #455880;
+}
