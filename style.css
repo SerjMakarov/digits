@@ -1,0 +1,209 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.header {
+    padding: 20px 0;
+}
+
+.contact {
+    display: flex;
+}
+
+.logo {
+    display: block;
+}
+
+.nav__item {
+    padding-right: 35px;
+}
+
+.nav__item_link-color {
+    text-decoration: none;
+    color: #1E266D;
+}
+
+.btn-circle--hover:hover {
+    text-decoration: none;
+    color: #DFE0EB;
+}
+
+.btn-circle {
+    display: inline-block;
+    background: #3751FF;
+    padding: 10px 15px;
+    border-radius: 50px;
+    color: #fff;
+    text-align: center;
+}
+
+.btn-circle--white {
+    display: inline-block;
+    background: #fff;
+    padding: 10px 15px;
+    border-radius: 50px;
+    color: #455880;
+    text-align: center;
+}
+
+.slogan {
+    /* position: relative; */
+    background: #DFE0EB;
+    padding-top: 144px;
+}
+
+.slogan__maintext {
+    font-weight: 500;
+    font-size: 56px;
+    line-height: 105%;
+    text-align: center;
+    color: #1E266D;
+}
+
+.slogan__text {
+    margin: 28px 0;
+    font-size: 18px;
+    line-height: 150%;
+    text-align: center;
+    color: #455880;
+}
+
+.slogan__btn-circle {
+    display: flex;
+    justify-content: space-around;
+}
+
+.slogan__img {
+    margin-bottom: -177px;
+}
+
+.brands {
+    padding-top: 150px;
+}
+
+.brand__title {
+    margin: 54px 0 46px 0;
+    font-size: 16px;
+    line-height: 27px;
+    text-align: center;
+    color: rgba(69, 88, 128, 0.5);
+}
+
+.brand__logo {
+    display: flex;
+    justify-content: space-between;
+}
+
+.about {
+    padding-bottom: 100px;
+}
+
+.about__title {
+    margin: 194px 0 113px 0;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 60px;
+    text-align: center;
+    color: #1E266D;
+}
+
+.about__card {
+    display: flex;
+    border-bottom: 1px solid rgba(69, 88, 128, 0.2);
+    margin-bottom: 60px;
+    max-width: 360px;
+}
+
+.about__img {
+    margin-top: -161px;
+}
+
+.about__logo {
+    margin-right: 43px;
+}
+
+.about__subtitle {
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 125%;
+    color: #1E266D;
+}
+
+.about__desc {
+    padding: 20px 0;
+    font-size: 18px;
+    line-height: 27px;
+    color: #455880;
+}
+
+.portfolio {
+    padding-top: 140px;
+    background: #FFF9EA url(img/background-services.png) no-repeat center bottom / cover;
+    padding-bottom: 576px;
+}
+
+.portfolio__title {
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 60px;
+    text-align: center;
+    color: #1E266D;
+}
+
+.portfolio__desc {
+    padding: 40px 0;
+    font-size: 21px;
+    line-height: 150%;
+    text-align: center;
+    color: #455880;
+}
+
+.testimonials {
+    padding: 244px 0 171px 0;
+}
+
+.testimonials__title {
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 60px;
+    text-align: center;
+    color: #1E266D;
+}
+
+.testimonials__card {
+    margin-top: 53px;
+    padding: 40px 30px;
+    max-width: 358px;
+    border: 1px solid rgba(69, 88, 128, 0.2);
+    border-radius: 4px;
+}
+
+.testimonials__desc {
+    font-size: 18px;
+    line-height: 180%;
+    color: #455880;
+    margin-bottom: 30px;
+}
+
+.testimonials__text {
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 125%;
+    text-align: center;
+    color: #1E266D;
+    margin: 0;
+}
+
+.testimonials__img {
+    display: inline-block;
+    margin-bottom: 20px; 
+}
+
+.testimonials__text:last-child {
+    font-size: 18px;
+    line-height: 180%;
+    text-align: center;
+    color: #1E266D;
+    margin: 0;
+} 
+
